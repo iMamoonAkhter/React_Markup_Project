@@ -1,10 +1,77 @@
 body {
-    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background: #27292c;
+    background: #27292c; /*#27292c*/
     color: #fff;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+  }
 h1{
     margin-top: 30px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+
+}
+.nav-list li{
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+.nav-logo{
+    width: 55px;
+}
+header{
+    height: 90px;
+    padding: 30px 25px;
+    background-color: #21222A;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+nav > img{
+    margin-right: 7px;
+}
+
+nav > span{
+    color: #61daf8;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+main {
+    padding: 60px 30px;
+    background-image: url("../src/assets/react.svg");
+    background-repeat: no-repeat;
+    background-position: right 70%;
+}
+main h1{
+    margin: 0;
+    font-size: 2.4rem;
+}
+
+.facts-list {
+    margin-top: 46px;
+    max-width: 400px;
+     
+}
+.facts-list li {
+    margin-block: 10px;
+    line-height: 19px;
+
+}
+li::marker{ 
+    color: #61daf8;
+     font-size: 1.5rem;
 }

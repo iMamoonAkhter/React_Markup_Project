@@ -1,11 +1,11 @@
-import './App.css'
-import Navbar from './components/Navbar'
+import Travel_Journey from './components/Travel Journey/Travel_Journey'
 
 function App() {
 
   return (
     <>
-      <Navbar />
+      <Travel_Journey />
+      
     </>
   )
 }

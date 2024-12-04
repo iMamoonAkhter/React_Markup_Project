@@ -1,5 +1,5 @@
 import reactlogo from "../assets/react.svg"
-const Navbar = () => {
+const Temporary = () => {
   return (
     <main>
         <img src={reactlogo} alt="react.svg" width='40px' />
@@ -15,4 +15,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Temporary
